@@ -9,6 +9,21 @@
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [mongoose](https://mongoosejs.com/)
 
+### Warning
+
+https://www.mongodb.com/
+อย่าลืม ลง mongodb database นะครับ ถ้า start ไม่ได้
+
+```
+npm install -g nodemon
+```
+
+ใครใช้ Docker ให้ลง images docker แล้ว start images
+
+### \*\*\*
+
+อันนี้โครง MVC อยากไปต่อเติมให้ลอง แก้ดูนะครับ
+
 ### Installation
 
 ```bash

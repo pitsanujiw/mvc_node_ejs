@@ -4,7 +4,8 @@ const addUsers = require('../models/add.model')
 exports.addUser = (req, res, next) => {
   const Adduser = new addUsers({
     _id: mongoose.Types.ObjectId(),
-    fullName: req.body.users
+    fullName: req.body.users,
+    fetch: { name: req.body.users }
   })
   Adduser.save()
     .then(result => {
